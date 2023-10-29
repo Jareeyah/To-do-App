@@ -4,4 +4,6 @@ This is a simple Express.js template that can be used as a starting point for cr
 Features
 Provides a basic Express.js setup with routing and middleware support.
 
-erd templates: https://miro.com/app/board/uXjVNVZtSD0=/?share_link_id=490379573771
+ERD template:
+https://miro.com/app/board/uXjVNVZtSD0=/?share_link_id=490379573771
+The host link: https://to-do-app.jariatdosunmu.repl.co/
