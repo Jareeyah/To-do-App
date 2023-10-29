@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/index.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tasks</h1>
+        <form id="todo-list" action="/todo.hbs" method="POST" class="to">
+            <input type="text" id="task-list-input" placeholder="Enter Quick Task Here" name="description" required />
+            <input type="date" id="due-date-input" placeholder="Due Date" name="dueDate" required />
+            <button type="submit" id="add-task">Add task</button>
+        </form>
+
+        <section id="task-list">
+            <h2 class="second">Tasks</h2>
+            <ul id="tasks-container"></ul>
+        </section>
+    
+
+  <div id="success-message" style="display: none;"></div>
+    </div>
+</body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js"></script>
+
+</html>
+
+

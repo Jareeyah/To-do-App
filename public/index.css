@@ -1,0 +1,162 @@
+body {
+  background-color: #b3b1b5;
+}
+
+.container {
+  border-color: #ccc;
+  border-radius: 20px;
+  border-width: 2px;
+  width: 500px;
+  margin: 50px 600px 500px 400px;
+  height: 600px;
+  background-color: #fef7ff;
+  align-items: center;
+  padding-bottom: 30px;
+  border-color: grey;
+  box-shadow: 5px 5px 5px grey;
+  }
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color: white;
+  background-color: #360f70;
+  padding: 15px;
+  box-sizing: border-box;
+  aling-items: center;
+  border-radius: 10px;
+  margin: 0px;
+  border: none; 
+  top: 0;
+  
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 110px;
+  margin-left: 90px;
+  margin-right: 90px;
+  text-align: center;
+}
+
+.press{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 75px;
+  margin-left: 200px;
+  margin-right: 100px;
+  background-color: #360f70;
+  color: white;
+  border: none;
+  padding: 16px 16px 16px 16px;
+  
+}
+
+.fill{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 70px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 20px;
+  margin-right: 163px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #e2d5f0;
+  padding: 10px;
+  font-size: 16px;
+  }
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 27px;
+  margin-left: 95px;
+  margin-right: 100px;
+  background-color: #360f70;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 16px 16px 16px;
+
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #360f70;
+  text-decoration: none;
+}
+
+.to{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  padding: 40px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px #b3b1b5;
+}
+
+#add-task{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: 105px;
+  margin-right: 115px;
+  margin-top: 15px;
+  background-color: #360f70;
+  color: white;
+  border: none;
+  border-radius: 16px;
+}
+
+.second{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color:  #360f70;
+  margin-left: 20px;
+}
+
+.tasks{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.actions{
+  
+}
+
+.delete{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin-top: 5px;
+  background-color: #360f70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.edit{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin-top: 5px;
+  background-color: #360f70;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  background-color: #e2d5f0;
+}
